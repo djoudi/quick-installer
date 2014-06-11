@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # We need curl for the next step
 apt-get install curl -y
 

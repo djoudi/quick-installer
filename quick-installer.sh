@@ -1,3 +1,5 @@
+#!/bin/bash
+
 file_remove='./remove.txt'
 file_install='./install.txt'
 pre_install_tweaks='./pre-tweaks.sh'
