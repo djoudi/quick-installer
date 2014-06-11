@@ -1,0 +1,33 @@
+gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386
+sni-qt:i386
+unity-tweak-tool
+p7zip-full
+p7zip-rar
+ubuntu-restricted-extras libavcodec-extra
+icedtea-7-plugin openjdk-7-jre
+smplayer
+smtube
+smplayer-themes
+vlc
+libreoffice-style-sifr
+gparted
+gimp inkscape
+okular
+clementine
+git curl wget
+openvpn
+btsync-gui
+nautilus-open-terminal
+ppa:nilarimogard/webupd8 syspeek youtube-dl android-tools-adb android-tools-fastboot
+ppa:webupd8team/puddletag puddletag
+ppa:webupd8team/sublime-text-3 sublime-text-installer
+ppa:webupd8team/brackets brackets
+ppa:peterlevi/ppa variety
+ppa:mc3man/trusty-media gstreamer0.10-ffmpeg
+ppa:pinta-maintainers/pinta-stable pinta
+ppa:webupd8team/atom atom
+ppa:paolorotolo/android-studio android-studio
+ppa:ravefinity-project/ppa humanity-colors  ambiance-colors radiance-colors
+# ppa:webupd8team/java oracle-java7-installer oracle-java8-installer
+ppa:hydr0g3n/qbittorrent-stable qbittorrent
+samba
