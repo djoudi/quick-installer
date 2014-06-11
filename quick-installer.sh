@@ -7,7 +7,7 @@ post_install_tweaks='./post-tweaks.sh'
 
 remove=1;
 install=1;
-tweaks=1;
+tweaks=0;
 update=1;
 
 add_repo() {
@@ -23,7 +23,7 @@ update_repos() {
 }
 
 install_apps() {
-    local command="apt-get install -y $1"
+    local command="apt-get install -y -m --force-yes $1"
     $command;
 }
 
@@ -63,7 +63,7 @@ if [ $install ]; then
         add_repo "$ppa"
     done
 
-    apps=`grep -v "^#" "$file_install" | sed s/'ppa:.*\s'//`
+    apps=`grep -v "^#" "$file_install" | sed s/'ppa:\S*\s'//`
     update_repos
     install_apps "$apps"
 fi

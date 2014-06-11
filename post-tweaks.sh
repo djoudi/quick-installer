@@ -9,7 +9,7 @@ gsettings set org.gnome.nautilus.preferences enable-interactive-search false
 # Install visionmedia/n
 mkdir -p './git'
 cd './git'
-git clone 'https://github.com/visionmedia/n.git'
+git clone 'https://github.com/visionmedia/n.git' --depth 1
 cd './n'
 make install
 # Fetch and install latest stable node.js and npm

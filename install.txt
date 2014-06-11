@@ -12,7 +12,9 @@ vlc
 libreoffice-style-sifr
 gparted
 gimp inkscape
+# Evince is slow when scrolling in large files
 okular
+# Clementine is simply the best music player
 clementine
 git curl wget
 openvpn
@@ -27,7 +29,12 @@ ppa:mc3man/trusty-media gstreamer0.10-ffmpeg
 ppa:pinta-maintainers/pinta-stable pinta
 ppa:webupd8team/atom atom
 ppa:paolorotolo/android-studio android-studio
-ppa:ravefinity-project/ppa humanity-colors  ambiance-colors radiance-colors
-# ppa:webupd8team/java oracle-java7-installer oracle-java8-installer
+ppa:ravefinity-project/ppa humanity-colors ambiance-colors radiance-colors
+ppa:webupd8team/java oracle-java7-installer oracle-java8-installer
 ppa:hydr0g3n/qbittorrent-stable qbittorrent
 samba
+# Brasero is buggy, k3b is good enough
+k3b
+network-manager-openvpn-gnome
+shutter
+goldendict
