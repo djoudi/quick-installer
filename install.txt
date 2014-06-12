@@ -54,7 +54,7 @@ ppa:webupd8team/puddletag puddletag
 ## Sync and backup
 btsync-gui
 ppa:hydr0g3n/qbittorrent-stable qbittorrent
-ppa:paolorotolo/copy copy
+# ppa:paolorotolo/copy copy
 
 ## Sharing
 samba
