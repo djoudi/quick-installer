@@ -4,9 +4,11 @@ file_remove='./remove.txt'
 file_install='./install.txt'
 pre_install_tweaks='./pre-tweaks.sh'
 post_install_tweaks='./post-tweaks.sh'
+local_debs_dir='./deb'
 
-remove=1;
+remove=0;
 install=1;
+install_local=1;
 tweaks=0;
 update=1;
 
@@ -24,6 +26,11 @@ update_repos() {
 
 install_apps() {
     local command="apt-get install -y -m --force-yes $1"
+    $command;
+}
+
+install_local_debs() {
+    local command="dpkg -i -R '$1'"
     $command;
 }
 
@@ -66,6 +73,9 @@ if [ $install ]; then
     apps=`grep -v "^#" "$file_install" | sed s/'ppa:\S*\s'//`
     update_repos
     install_apps "$apps"
+    if [ $install_local ]; then
+        install_local_debs $local_debs_dir
+    fi
 fi
 
 # Do the post-install tweaks
