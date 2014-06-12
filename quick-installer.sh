@@ -6,10 +6,10 @@ pre_install_tweaks='./pre-tweaks.sh'
 post_install_tweaks='./post-tweaks.sh'
 local_debs_dir='./deb'
 
-remove=0;
+remove=1;
 install=1;
 install_local=1;
-tweaks=0;
+tweaks=1;
 update=1;
 
 add_repo() {
