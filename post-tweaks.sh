@@ -8,15 +8,6 @@ gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-ama
 # Switch to recursive search in Nautilus (I like it)
 gsettings set org.gnome.nautilus.preferences enable-interactive-search false
 
-# Install visionmedia/n
-git clone 'https://github.com/visionmedia/n.git' --depth 1
-cd './n'
-make install
-# Fetch and install latest stable node.js and npm
-n stable
-cd '..'
-rm -R  './n'
-
 # # Tweak Copy client
 # /opt/copy-client/CopyAgent -installOverlay
 
@@ -30,4 +21,12 @@ rm -R  './n'
 # # Restart nautilus
 # nautilus -q
 
-cd "$pwd"
+./install-node.sh
+
+cd "$old_dir"
+
+# disable guest user
+# echo '[SeatDefaults]
+# user-session=ubuntu
+# greeter-session=unity-greeter
+# allow-guest=false' > /etc/lightdm/lightdm.conf

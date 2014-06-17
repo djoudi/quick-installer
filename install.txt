@@ -8,11 +8,14 @@ ppa:webupd8team/brackets brackets
 ppa:nilarimogard/webupd8 android-tools-adb android-tools-fastboot
 ppa:webupd8team/java oracle-java7-installer oracle-java8-installer
 ppa:ubuntu-mozilla-daily/ppa firefox-trunk
+vim
+mongodb-org
 
 ## Web Browsers
 ppa:nowrep/qupzilla qupzilla
 
 ## Utilities
+ffmpeg
 gparted
 nautilus-open-terminal
 unity-tweak-tool
@@ -21,9 +24,10 @@ p7zip-rar
 ubuntu-restricted-extras libavcodec-extra
 openvpn network-manager-openvpn-gnome
 ppa:nilarimogard/webupd8 syspeek youtube-dl
-shutter
+ppa:shutter/ppa shutter
 # Brasero is buggy, k3b is good enough
 k3b
+bleachbit
 
 ## References
 goldendict
@@ -36,6 +40,7 @@ ppa:peterlevi/ppa variety
 ## Graphics
 gimp inkscape
 ppa:pinta-maintainers/pinta-stable pinta
+ppa:samrog131/ppa photoqt
 
 ## Books
 # Evince is slow when scrolling in large files

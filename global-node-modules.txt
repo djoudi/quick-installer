@@ -1,0 +1,10 @@
+bower
+gulp
+grunt
+cordova
+ionic
+marked
+mozilla-apk-cli
+coffee-script
+less
+stylus

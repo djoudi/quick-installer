@@ -30,7 +30,7 @@ install_apps() {
 }
 
 install_local_debs() {
-    local command="dpkg -i -R '$1'"
+    local command="dpkg -i -R $1"
     $command;
 }
 
@@ -58,7 +58,6 @@ fi
 
 # Install apps
 if [ $install ]; then
-
     # Do the pre-install tweaks
     if [ $tweaks -a "$pre_install_tweaks" ]; then
         do_tweaks "$pre_install_tweaks"
