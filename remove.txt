@@ -1,2 +1,3 @@
 rhythmbox
 # webbrowser-app # This could break unity-tweak-tool
+thunderbird
