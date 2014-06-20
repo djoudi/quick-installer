@@ -48,6 +48,11 @@ update_apps() {
     $command;
 }
 
+clean() {
+    local command="apt-get autoremove -y"
+    $command;
+}
+
 
 do_tweaks() {
     echo "Doing the tweaks specified in \"$1\"..."
@@ -90,3 +95,5 @@ fi
 if [ $update -eq 1 ]; then
     update_apps
 fi
+
+clean
