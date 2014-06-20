@@ -2,6 +2,7 @@ bower
 gulp
 grunt
 cordova
+plugman
 ionic
 marked
 mozilla-apk-cli
