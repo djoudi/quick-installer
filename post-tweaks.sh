@@ -9,17 +9,10 @@ gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-ama
 gsettings set org.gnome.nautilus.preferences enable-interactive-search false
 
 # # Tweak Copy client
-# /opt/copy-client/CopyAgent -installOverlay
-
-# # Fix libdbusmenu issue for CopyAgent
-# # Source: http://www.webupd8.org/2014/06/fix-copycom-indicator-menu-for-ubuntu.html
-# cd /tmp
-# wget https://github.com/hotice/webupd8/raw/master/libdbusmenu-gtk-$(arch).tar.gz
-# tar -xvf libdbusmenu-gtk*
-# sudo cp /tmp/libdbusmenu-gtk*/* /opt/copy-client/
+/opt/copy-client/CopyAgent -installOverlay
 
 # # Restart nautilus
-# nautilus -q
+nautilus -q
 
 ./install-node.sh
 
