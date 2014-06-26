@@ -8,6 +8,7 @@ ppa:webupd8team/brackets brackets
 ppa:nilarimogard/webupd8 android-tools-adb android-tools-fastboot
 ppa:webupd8team/java oracle-java7-installer oracle-java8-installer
 ppa:ubuntu-mozilla-daily/ppa firefox-trunk
+chromium
 vim
 mongodb-org
 
