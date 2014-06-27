@@ -57,7 +57,8 @@ smplayer-themes
 vlc
 ppa:mc3man/trusty-media gstreamer0.10-ffmpeg
 ppa:webupd8team/puddletag puddletag
-ppa:lzh9102/qwinff qwinff
+ppa:lzh9102/qwinff qwinff # Media converter written in Qt/C++
+ppa:teejee2008/ppa selene # Media converter written in GTK+/Vala
 
 ## Sync and backup
 btsync-gui
