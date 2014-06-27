@@ -23,3 +23,5 @@ cd "$old_dir"
 # user-session=ubuntu
 # greeter-session=unity-greeter
 # allow-guest=false' > /etc/lightdm/lightdm.conf
+
+./install-pip.sh
