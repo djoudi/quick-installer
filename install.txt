@@ -57,6 +57,7 @@ smplayer-themes
 vlc
 ppa:mc3man/trusty-media gstreamer0.10-ffmpeg
 ppa:webupd8team/puddletag puddletag
+ppa:lzh9102/qwinff qwinff
 
 ## Sync and backup
 btsync-gui
