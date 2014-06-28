@@ -37,6 +37,8 @@ goldendict
 libreoffice-style-sifr
 ppa:ravefinity-project/ppa humanity-colors ambiance-colors radiance-colors
 ppa:peterlevi/ppa variety
+ppa:moka/stable moka-icon-theme
+
 
 ## Graphics
 gimp inkscape
