@@ -47,7 +47,7 @@ ppa:samrog131/ppa photoqt
 
 ## Books
 # Evince is slow when scrolling in large files
-okular
+okular okular-extra-backends
 
 ## Media
 # Clementine is simply the best music player
