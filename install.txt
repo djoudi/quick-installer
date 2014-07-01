@@ -55,6 +55,7 @@ clementine
 audacious
 smplayer
 smtube
+minitube
 smplayer-themes
 vlc
 ppa:mc3man/trusty-media gstreamer0.10-ffmpeg
