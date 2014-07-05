@@ -9,3 +9,4 @@ mozilla-apk-cli
 coffee-script
 less
 stylus
+pageres
