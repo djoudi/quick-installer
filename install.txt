@@ -12,6 +12,9 @@ chromium-browser
 vim
 mongodb-org
 
+## Text editors
+ppa:gottcode/gcppa focuswriter
+
 ## Web Browsers
 ppa:nowrep/qupzilla qupzilla
 
