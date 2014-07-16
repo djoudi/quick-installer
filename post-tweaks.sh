@@ -8,6 +8,9 @@ gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-ama
 # Switch to recursive search in Nautilus (I like it)
 gsettings set org.gnome.nautilus.preferences enable-interactive-search false
 
+# Use Konsole as default terminal (you must add konsole to install.txt)
+gsettings set org.gnome.desktop.default-applications.terminal exec 'konsole'
+
 # # Tweak Copy client
 /opt/copy-client/CopyAgent -installOverlay
 

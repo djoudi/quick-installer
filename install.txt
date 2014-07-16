@@ -32,6 +32,7 @@ ppa:shutter/ppa shutter
 # Brasero is buggy, k3b is good enough
 k3b
 bleachbit
+konsole # Because gnome-terminal does not support bidi
 
 ## References
 goldendict
@@ -75,7 +76,8 @@ ppa:paolorotolo/copy copy
 samba
 
 ## Emulators
-ppa:gregory-hainaut/pcsx2.official.ppa pcsx2 # PlayStation emulator
+ppa:gregory-hainaut/pcsx2.official.ppa pcsx2 # PlayStation 2 emulator
+ppa:rebuntu16/pcsx-reloaded-svn+unofficial pcsxr-unstable # PlayStation emulator (unofficial PPA)
 
 ## Fixes
 gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386
