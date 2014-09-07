@@ -65,7 +65,8 @@ vlc
 ppa:mc3man/trusty-media gstreamer0.10-ffmpeg
 ppa:webupd8team/puddletag puddletag
 ppa:lzh9102/qwinff qwinff # Media converter written in Qt/C++
-ppa:teejee2008/ppa selene # Media converter written in GTK+/Vala
+# ppa:teejee2008/ppa selene # Media converter written in GTK+/Vala
+# ppa:kazam-team/unstable-series kazam # Screen recorder
 
 ## Sync and backup
 btsync-gui
@@ -78,6 +79,9 @@ samba
 ## Emulators
 ppa:gregory-hainaut/pcsx2.official.ppa pcsx2 # PlayStation 2 emulator
 ppa:rebuntu16/pcsx-reloaded-svn+unofficial pcsxr-unstable # PlayStation emulator (unofficial PPA)
+
+# Chat
+ppa:skype-wrapper/ppa skype-wrapper
 
 ## Fixes
 gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386
